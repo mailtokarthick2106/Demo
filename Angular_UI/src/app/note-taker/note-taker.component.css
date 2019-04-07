@@ -1,0 +1,31 @@
+.notes-container {
+    width: 50vw;
+    margin: auto;
+}
+
+.note-title  {
+    width: 100%;
+}
+
+.note-text{
+    width: 100%;
+}
+
+.notes-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.notes-wrapper > * {
+    flex: 0 0 28%;
+    margin: 10px;
+}
+
+.error-message {
+   color: red;
+ }
+
+  
+   

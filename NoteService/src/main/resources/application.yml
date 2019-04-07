@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      database: test
+      port: 27017
+      host: localhost
+  application:
+    name: NoteService
+server:
+  port: 9100 
+logging:
+  level:
+    root: off      
+eureka:
+     client:
+       serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
+  

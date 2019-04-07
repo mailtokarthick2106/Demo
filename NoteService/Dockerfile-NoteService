@@ -1,0 +1,5 @@
+FROM java:8
+MAINTAINER javaonfly
+COPY /NoteService/target/NoteService-0.0.1-SNAPSHOT.jar NoteService-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar", "NoteService-0.0.1-SNAPSHOT.jar"]
+EXPOSE 9100

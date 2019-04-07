@@ -1,0 +1,18 @@
+<!-- Mandatory code for error displaying to prevent failing testcases  -->
+<label class="error-message"><span *ngIf="errMessage">{{ errMessage }}</span></label>
+
+<!-- Expansion panel to add new notes -->
+<div class="notes-container">
+
+
+      <mat-form-field class="note-title">
+        <input matInput placeholder="Category Name" name='name' [(ngModel)]='category.categoryName'/>
+      </mat-form-field>
+      <mat-form-field class="note-text">
+        <textarea matInput placeholder='Category Description' name='description' [(ngModel)]='category.categoryDescription' matAutosizeMinRows="3"></textarea>
+      </mat-form-field>
+      <div class='takenotes-btn'>
+        <button mat-raised-button (click) = 'takeCategory()'>Done</button>
+      </div>
+    <mat-error *ngIf="errorMessage"><label class="error-message">{{errorMessage}}</label></mat-error>
+</div>

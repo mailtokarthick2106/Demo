@@ -1,0 +1,17 @@
+<div class="list-container ">
+<div class="keep-c-list-container">
+	<label>Not-Started</label>
+	
+	<app-note [note]='note' *ngFor="let note of notStartedNotes">{{note}}</app-note>
+</div>
+<div class="keep-c-list-container">
+	<label>Started</label>
+	
+	<app-note [note]='note' *ngFor="let note of startedNotes">{{note}}</app-note>
+</div>
+<div class="keep-c-list-container">
+	<label>Completed</label>
+
+	<app-note [note]='note' *ngFor="let note of completedNotes">{{note}}</app-note>
+</div>
+</div>

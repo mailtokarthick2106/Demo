@@ -1,0 +1,5 @@
+FROM java:8
+MAINTAINER javaonfly
+COPY /ServiceAPIGateway/target/ServiceAPIGateway-0.0.1-SNAPSHOT.jar ServiceAPIGateway-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar", "ServiceAPIGateway-0.0.1-SNAPSHOT.jar"]
+EXPOSE 8765

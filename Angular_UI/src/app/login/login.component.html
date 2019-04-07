@@ -1,0 +1,28 @@
+
+<!-- <form (ngSubmit)='loginSubmit()' [formGroup]="userForm" class="login-c-form-wrapper"> -->
+    <form (ngSubmit)='loginSubmit()' class="login-c-form-wrapper">
+        <div class="divcls">
+            <label for="username" >UserName</label>
+            <input class="username" matInput [formControl]='username'>
+            <!-- <input type="text"  matInput formControlName="username" name="username" id="username" placeholder="Enter Username"  required> -->
+            <!-- <small *ngIf="(username.touched || username.dirty) && username.invalid">This is mandatory field</small> -->
+        </div>
+        <div class="divcls">
+            <label for="password" >Password</label>
+            <input class="password" matInput type = 'password' [formControl]='password'>
+            <!-- <input type="text"  matInput formControlName="password" name="password" id="password" placeholder="Enter Password"  required minlength="5"> -->
+            <!-- <small *ngIf="(password.touched || password.dirty) && password.invalid && password.errors.required">This is mandatory field</small>
+            <small *ngIf="(password.touched || password.dirty) && password.invalid && password.errors.minlength">
+              {{password.errors.minlength.requiredLength - passowrd.errors.minlength.actualLength}} characters to go..
+            </small> -->
+            <small></small>
+        </div>
+        <div class="divcls">
+            <button type="submit" mat-button>Submit</button>
+            <!-- <p>Password status:{{password.control.errors | json}}</p>  -->
+              <!-- Label to display any error messages -->
+              <strong *ngIf="submitMessage" class="error-message">{{ submitMessage }}</strong>
+        </div>
+      
+      </form>
+      

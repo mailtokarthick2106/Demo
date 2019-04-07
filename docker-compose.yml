@@ -1,0 +1,97 @@
+# Dockerfile has been added in all micro-services, you need to dockerize all micro-services and add docker-compose.yml file
+version: '3.3'
+services:
+    config-server:
+        container_name: config-server
+        build:
+            context: .
+            dockerfile: /ConfigServer/Dockerfile-configserver
+        image: config-server:latest
+        expose:
+            - 8888
+        ports:
+            - 8888:8888
+        networks:
+            - emp-network
+        volumes:
+            - config-repo:config-repo
+    eureka-server:
+        container_name: eureka-server
+        build:
+            context: .
+            dockerfile: /ServiceRegistration/Dockerfile-EurekaServer
+        image: eureka-server:latest
+        expose:
+            - 8761
+        ports:
+            - 8761:8761
+        networks:
+            - emp-network
+    UserAuthenticationService:
+        container_name: UserAuthentication
+        build:
+            context: .
+            dockerfile: /UserAuthentication-Service/Dockerfile-UserAuthentication
+        image: userauthentication:latest
+        environment:
+            SPRING_APPLICATION_JSON: '{"spring": {"cloud": {"config": {"uri": "http://config-server:8888"}}}}'
+        expose:
+            - 9300
+        ports:
+            - 9300:9300
+        networks:
+            - emp-network
+        links:
+            - config-server:config-server
+            - eureka-server:eureka-server
+        depends_on:
+            - config-server
+            - eureka-server
+        logging:
+            driver: json-file
+    NoteService:
+        container_name: NoteService
+        build:
+            context: .
+            dockerfile: /NoteService/Dockerfile-NoteService
+        image: noteservice:latest
+        environment:
+            SPRING_APPLICATION_JSON: '{"spring": {"cloud": {"config": {"uri": "http://config-server:8888"}}}}'
+        expose:
+            - 9100
+        ports:
+            - 9100:9100
+        networks:
+            - emp-network
+        links:
+            - config-server:config-server
+            - eureka-server:eureka-server
+        depends_on:
+            - config-server
+            - eureka-server
+        logging:
+            driver: json-file
+    ZuulServer:
+        container_name: ZuulServer
+        build:
+            context: .
+            dockerfile: /ServiceAPIGateway/Dockerfile-ZuulServer
+        image: zuulserver:latest
+        expose:
+            - 8765
+        ports:
+            - 8765:8765
+        networks:
+            - emp-network
+        links:
+            - eureka-server:eureka-server
+        depends_on:
+            - eureka-server
+        logging:
+            driver: json-file
+networks:
+    emp-network:
+        driver: bridge
+volumes:
+    config-repo:
+        external: false

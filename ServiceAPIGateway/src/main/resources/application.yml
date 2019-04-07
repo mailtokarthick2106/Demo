@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: ServiceAPIGateway
+server:
+  port: 8765
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  ignored-services: '*'
+  routes:
+    UserAuthenticationService:
+        path: /UserAuthenticationService/**
+        service-id: UserAuthenticationService
+    NoteService:
+        path: /NoteService/**
+        service-id: NoteService
+    CategoryService:
+        path: /CategoryService/**
+        service-id: CategoryService     
+  prefix: /api
+    
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000        
+  
+          

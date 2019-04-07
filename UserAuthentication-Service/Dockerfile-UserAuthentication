@@ -1,0 +1,5 @@
+FROM java:8
+MAINTAINER javaonfly
+COPY /UserAuthentication-Service/target/UserAuthentication-Service-0.0.1-SNAPSHOT.jar UserAuthentication-Service-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar", "UserAuthentication-Service-0.0.1-SNAPSHOT.jar"]
+EXPOSE 9300

@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      database: test
+      port: 27017
+      host: localhost
+  application:
+    name: CategoryService
+server:
+  port: 8083

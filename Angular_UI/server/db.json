@@ -1,0 +1,46 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Read Angular5 blog",
+      "text": "Shall do at 6 pm",
+      "state": "not-started"
+    },
+    {
+      "id": 2,
+      "title": "Call Ravi",
+      "text": "Track the new submissions",
+      "state": "started"
+    },
+    {
+      "title": "Capitalism",
+      "text": "Mark Twain",
+      "id": 3,
+      "state": "completed"
+    },
+    {
+      "title": "raja",
+      "text": "123",
+      "state": "not-started",
+      "id": 4
+    },
+    {
+      "title": "Good",
+      "text": "texttest",
+      "state": "not-started",
+      "id": 5
+    },
+    {
+      "title": "fsdtest",
+      "text": "test",
+      "state": "not-started",
+      "id": 6
+    },
+    {
+      "title": "dada",
+      "text": "ddada",
+      "state": "not-started",
+      "id": 7
+    }
+  ]
+}

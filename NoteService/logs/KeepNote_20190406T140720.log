@@ -1,0 +1,530 @@
+2019-04-06 14:07:21 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'logging.register-shutdown-hook' in any property source
+2019-04-06 14:07:21 [main] DEBUG o.s.b.c.l.ClasspathLoggingApplicationListener -
+				Application started with classpath: [jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-starter-web-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-starter-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-starter-logging-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/logback-classic-1.2.3.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/logback-core-1.2.3.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/log4j-to-slf4j-2.10.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/log4j-api-2.10.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jul-to-slf4j-1.7.25.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/javax.annotation-api-1.3.2.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/snakeyaml-1.19.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-starter-json-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jackson-datatype-jdk8-2.9.5.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jackson-datatype-jsr310-2.9.5.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jackson-module-parameter-names-2.9.5.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-starter-tomcat-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/tomcat-embed-core-8.5.31.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/tomcat-embed-el-8.5.31.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/tomcat-embed-websocket-8.5.31.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/hibernate-validator-6.0.9.Final.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/validation-api-2.0.1.Final.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jboss-logging-3.3.2.Final.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-web-5.0.6.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-beans-5.0.6.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-webmvc-5.0.6.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-expression-5.0.6.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-starter-config-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-starter-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-context-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-security-rsa-1.0.7.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/bcpkix-jdk15on-1.60.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/bcprov-jdk15on-1.60.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-config-client-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-starter-netflix-eureka-server-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-netflix-eureka-server-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-starter-actuator-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-actuator-autoconfigure-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-actuator-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/micrometer-core-1.0.4.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/LatencyUtils-2.0.3.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-starter-freemarker-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/freemarker-2.3.28.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jersey-servlet-1.19.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jersey-server-1.19.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/archaius-core-0.7.6.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jsr305-3.0.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/javax.inject-1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jackson-dataformat-xml-2.9.5.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jackson-module-jaxb-annotations-2.9.5.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/stax2-api-3.1.4.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/woodstox-core-5.0.3.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-starter-netflix-archaius-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-netflix-archaius-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/commons-configuration-1.8.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/ribbon-eureka-2.2.5.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-autoconfigure-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/byte-buddy-1.7.11.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-core-5.0.6.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-starter-netflix-eureka-client-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-netflix-core-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-netflix-eureka-client-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/eureka-client-1.9.3.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jettison-1.3.7.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/stax-api-1.0.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/netflix-eventbus-0.3.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/netflix-infix-0.3.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/commons-jxpath-1.3.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/joda-time-2.9.9.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/antlr-runtime-3.4.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/stringtemplate-3.2.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/antlr-2.7.7.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/gson-2.8.4.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/commons-math-2.2.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jsr311-api-1.1.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/servo-core-0.12.21.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jersey-core-1.19.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jersey-client-1.19.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jersey-apache-client4-1.19.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/httpclient-4.5.5.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/httpcore-4.4.9.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/commons-codec-1.11.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/guice-4.1.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/aopalliance-1.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/compactmap-1.2.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/dexx-collections-0.2.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/eureka-core-1.9.3.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/woodstox-core-asl-4.4.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/stax-api-1.0-2.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/xstream-1.4.10.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/xmlpull-1.1.3.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/xpp3_min-1.1.4c.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-starter-openfeign-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-openfeign-core-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/feign-form-spring-3.3.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/feign-form-3.3.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/annotations-3.0.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jcip-annotations-1.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/commons-fileupload-1.3.3.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-commons-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-security-crypto-5.0.5.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/feign-core-9.7.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/feign-slf4j-9.7.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/feign-hystrix-9.7.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/hystrix-core-1.5.12.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/HdrHistogram-2.1.9.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/feign-java8-9.7.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-starter-netflix-ribbon-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-cloud-netflix-ribbon-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/ribbon-2.2.5.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/ribbon-transport-2.2.5.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/rxnetty-contexts-0.4.9.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/rxnetty-servo-0.4.9.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/rxnetty-0.4.9.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/ribbon-core-2.2.5.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/commons-lang-2.6.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/ribbon-httpclient-2.2.5.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/commons-collections-3.2.2.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/netflix-commons-util-0.3.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/ribbon-loadbalancer-2.2.5.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/netflix-statistics-0.1.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/rxjava-1.3.8.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jjwt-0.7.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-starter-aop-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-aop-5.0.6.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/aspectjweaver-1.8.13.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-starter-data-mongodb-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/mongodb-driver-3.6.3.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/bson-3.6.3.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/mongodb-driver-core-3.6.3.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-data-mongodb-2.0.7.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-tx-5.0.6.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-data-commons-2.0.7.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-starter-mail-2.0.2.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-context-5.0.6.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-context-support-5.0.6.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/javax.mail-1.6.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/activation-1.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-session-core-2.0.3.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-jcl-5.0.6.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-spring-web-2.7.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/reflections-0.9.11.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/javassist-3.21.0-GA.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger2-2.7.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/swagger-annotations-1.5.13.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/swagger-models-1.5.13.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-spi-2.7.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-core-2.7.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-schema-2.7.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-common-2.7.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/guava-18.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/classmate-1.3.4.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/slf4j-api-1.7.25.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/mapstruct-1.1.0.Final.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/commons-io-2.4.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jackson-databind-2.9.1.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jackson-annotations-2.9.0.jar!/, jar:file:/home/ubuntu/Desktop/finalfsd/NoteService/target/NoteService-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/jackson-core-2.9.5.jar!/]
+2019-04-06 14:07:21 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'context.listener.classes' in any property source
+2019-04-06 14:07:21 [main] DEBUG org.springframework.beans.BeanUtils -
+				No property editor [org.springframework.boot.WebApplicationTypeEditor] found for type org.springframework.boot.WebApplicationType according to 'Editor' suffix convention
+2019-04-06 14:07:21 [main] DEBUG o.s.core.env.StandardEnvironment -
+				Removing PropertySource 'configurationProperties'
+2019-04-06 14:07:21 [main] DEBUG o.s.core.env.StandardEnvironment -
+				Adding PropertySource 'configurationProperties' with highest search precedence
+2019-04-06 14:07:21 [background-preinit] DEBUG o.h.v.m.ResourceBundleMessageInterpolator -
+				Loaded expression factory via original TCCL
+2019-04-06 14:07:21 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.beaninfo.ignore' in any property source
+2019-04-06 14:07:21 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-04-06 14:07:21 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-04-06 14:07:21 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-04-06 14:07:21 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-04-06 14:07:21 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-04-06 14:07:21 [main] DEBUG o.s.core.env.StandardEnvironment -
+				Adding PropertySource 'systemProperties' with lowest search precedence
+2019-04-06 14:07:21 [main] DEBUG o.s.core.env.StandardEnvironment -
+				Adding PropertySource 'systemEnvironment' with lowest search precedence
+2019-04-06 14:07:21 [main] DEBUG o.s.core.env.StandardEnvironment -
+				Initialized StandardEnvironment with PropertySources [MapPropertySource@1844169442 {name='systemProperties', properties={java.runtime.name=OpenJDK Runtime Environment, java.protocol.handler.pkgs=org.springframework.boot.loader, sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64, java.vm.version=25.191-b12, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=OpenJDK 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, PID=3271, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/ubuntu/Desktop/finalfsd/NoteService, java.runtime.version=1.8.0_191-8u191-b12-2ubuntu0.16.04.1-b12, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, spring.beaninfo.ignore=true, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=4.4.0-1079-aws, user.home=/home/ubuntu, user.timezone=Etc/UTC, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=target/NoteService-0.0.1-SNAPSHOT.jar, user.name=ubuntu, java.vm.specification.version=1.8, sun.java.command=target/NoteService-0.0.1-SNAPSHOT.jar, java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_191, java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes, java.awt.headless=true, java.vendor=Oracle Corporation, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.cpu.isalist=}}, SystemEnvironmentPropertySource@1537358694 {name='systemEnvironment', properties={PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin, LESSCLOSE=/bin/lesspipe %s %s, TERM=xterm, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-5EurMedTn1,guid=eb7a242d870b1f8f5bbd85bd5ca8b1d2, LANG=en_US.UTF-8, XDG_SESSION_ID=c2, XDG_CURRENT_DESKTOP=MATE, DISPLAY=:10.0, SSH_AGENT_PID=2504, COLORTERM=mate-terminal, INSIDE_CAJA_PYTHON=, SESSION_MANAGER=local/ip-172-31-84-251:@/tmp/.ICE-unix/2517,unix/ip-172-31-84-251:/tmp/.ICE-unix/2517, QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1, PWD=/home/ubuntu/Desktop/finalfsd/NoteService, _=/usr/bin/java, WINDOWID=48235020, LESSOPEN=| /bin/lesspipe %s, SHELL=/bin/bash, USER=ubuntu, QT_ACCESSIBILITY=1, UID=1000, SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, GTK_MODULES=gail:atk-bridge, GTK_OVERLAY_SCROLLING=0, MATE_DESKTOP_SESSION_ID=this-is-deprecated, XDG_RUNTIME_DIR=/run/user/1000, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, HOME=/home/ubuntu, SHLVL=2}}]
+2019-04-06 14:07:21 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2019-04-06 14:07:21 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2019-04-06 14:07:21 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'context.initializer.classes' in any property source
+2019-04-06 14:07:21 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.application.name' in any property source
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:21 [main] DEBUG o.s.boot.SpringApplication -
+				Loading source class org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration,class org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration,class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration,class org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,class org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration,class org.springframework.cloud.config.client.DiscoveryClientConfigServiceBootstrapConfiguration,class org.springframework.cloud.netflix.eureka.config.EurekaDiscoveryClientConfigServiceBootstrapConfiguration
+2019-04-06 14:07:21 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2019-04-06 14:07:21 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:21 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@45c8e616: startup date [Sat Apr 06 14:07:21 UTC 2019]; root of context hierarchy
+2019-04-06 14:07:21 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext -
+				Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@45c8e616: org.springframework.beans.factory.support.DefaultListableBeanFactory@2812cbfa: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,propertySourceBootstrapConfiguration,encryptionBootstrapConfiguration,configurationPropertiesRebinderAutoConfiguration,propertyPlaceholderAutoConfiguration,configServiceBootstrapConfiguration]; root of factory hierarchy
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' to allow for resolving potential circular references
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2019-04-06 14:07:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:22 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'encrypt.key-store.location' in any property source
+2019-04-06 14:07:22 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'encrypt.key' in any property source
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader -
+				Registering bean definition for @Bean method org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration.environmentDecryptApplicationListener()
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader -
+				Registering bean definition for @Bean method org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesBeans()
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader -
+				Registering bean definition for @Bean method org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesRebinder()
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader -
+				Registering bean definition for @Bean method org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer()
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader -
+				Registering bean definition for @Bean method org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration.configClientProperties()
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'autoConfigurationReport'
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader -
+				Registering bean definition for @Bean method org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration.configServicePropertySource()
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassEnhancer -
+				Successfully enhanced org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration; enhanced class name is: org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration$$EnhancerBySpringCGLIB$$5e98fa15
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassPostProcessor -
+				Replacing bean definition 'propertySourceBootstrapConfiguration' existing class 'org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration' with enhanced class 'org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration$$EnhancerBySpringCGLIB$$5e98fa15'
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassEnhancer -
+				Successfully enhanced org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration; enhanced class name is: org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$bb553d05
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassPostProcessor -
+				Replacing bean definition 'encryptionBootstrapConfiguration' existing class 'org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration' with enhanced class 'org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$bb553d05'
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassEnhancer -
+				Successfully enhanced org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration; enhanced class name is: org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cb05dea9
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassPostProcessor -
+				Replacing bean definition 'configurationPropertiesRebinderAutoConfiguration' existing class 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' with enhanced class 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cb05dea9'
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassEnhancer -
+				Successfully enhanced org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration; enhanced class name is: org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration$$EnhancerBySpringCGLIB$$afa24de5
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassPostProcessor -
+				Replacing bean definition 'propertyPlaceholderAutoConfiguration' existing class 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration' with enhanced class 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration$$EnhancerBySpringCGLIB$$afa24de5'
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassEnhancer -
+				Successfully enhanced org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration; enhanced class name is: org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration$$EnhancerBySpringCGLIB$$c08f7635
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.ConfigurationClassPostProcessor -
+				Replacing bean definition 'configServiceBootstrapConfiguration' existing class 'org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration' with enhanced class 'org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration$$EnhancerBySpringCGLIB$$c08f7635'
+2019-04-06 14:07:22 [main] DEBUG o.s.core.env.StandardEnvironment -
+				Removing PropertySource 'defaultProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'propertySourcesPlaceholderConfigurer'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'propertySourcesPlaceholderConfigurer' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'propertySourcesPlaceholderConfigurer'
+2019-04-06 14:07:22 [main] DEBUG o.s.core.env.MutablePropertySources -
+				Adding PropertySource 'environmentProperties' with lowest search precedence
+2019-04-06 14:07:22 [main] DEBUG o.s.core.env.MutablePropertySources -
+				Adding PropertySource 'localProperties' with lowest search precedence
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-04-06 14:07:22 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Invoking afterPropertiesSet() on bean with name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'configurationPropertiesBeans'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'configurationPropertiesBeans'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'configurationPropertiesRebinderAutoConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'configurationPropertiesRebinderAutoConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'configurationPropertiesRebinderAutoConfiguration' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cb05dea9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'configurationPropertiesRebinderAutoConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'configurationPropertiesBeans' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'configurationPropertiesBeans'
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext -
+				Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@d8355a8]
+2019-04-06 14:07:22 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext -
+				Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@59fa1d9b]
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2812cbfa: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,propertySourceBootstrapConfiguration,encryptionBootstrapConfiguration,configurationPropertiesRebinderAutoConfiguration,propertyPlaceholderAutoConfiguration,configServiceBootstrapConfiguration,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,spring.cloud.config-org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata,environmentDecryptApplicationListener,encrypt-org.springframework.cloud.bootstrap.encrypt.KeyProperties,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,configurationPropertiesBeans,configurationPropertiesRebinder,propertySourcesPlaceholderConfigurer,configClientProperties,configServicePropertySource]; root of factory hierarchy
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'propertySourceBootstrapConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'propertySourceBootstrapConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Registered injected element on class [org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration$$EnhancerBySpringCGLIB$$5e98fa15]: AutowiredFieldElement for private java.util.List org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.propertySourceLocators
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'propertySourceBootstrapConfiguration' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Processing injected element of bean 'propertySourceBootstrapConfiguration': AutowiredFieldElement for private java.util.List org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.propertySourceLocators
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'configServicePropertySource'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'configServicePropertySource'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'configServiceBootstrapConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'configServiceBootstrapConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Registered injected element on class [org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration$$EnhancerBySpringCGLIB$$c08f7635]: AutowiredFieldElement for private org.springframework.core.env.ConfigurableEnvironment org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration.environment
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'configServiceBootstrapConfiguration' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Processing injected element of bean 'configServiceBootstrapConfiguration': AutowiredFieldElement for private org.springframework.core.env.ConfigurableEnvironment org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration.environment
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'environment'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				Autowiring by type from bean name 'configServiceBootstrapConfiguration' to bean named 'environment'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'configServiceBootstrapConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'configClientProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'configClientProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'configServiceBootstrapConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.profiles.active' in any property source
+2019-04-06 14:07:22 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.profiles.default' in any property source
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Registered injected element on class [org.springframework.cloud.config.client.ConfigClientProperties]: AutowiredFieldElement for private java.lang.String org.springframework.cloud.config.client.ConfigClientProperties.name
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'configClientProperties' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Processing injected element of bean 'configClientProperties': AutowiredFieldElement for private java.lang.String org.springframework.cloud.config.client.ConfigClientProperties.name
+2019-04-06 14:07:22 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.application.name:application' in any property source
+2019-04-06 14:07:22 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.application.name:application' in any property source
+2019-04-06 14:07:22 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.application.name' in any property source
+2019-04-06 14:07:22 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.application.name' in any property source
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Registered injected element on class [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory]: AutowiredMethodElement for public void org.springframework.boot.context.properties.ConversionServiceDeducer$Factory.setConverters(java.util.List)
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Registered injected element on class [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory]: AutowiredMethodElement for public void org.springframework.boot.context.properties.ConversionServiceDeducer$Factory.setGenericConverters(java.util.List)
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Processing injected element of bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory': AutowiredMethodElement for public void org.springframework.boot.context.properties.ConversionServiceDeducer$Factory.setConverters(java.util.List)
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Processing injected element of bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory': AutowiredMethodElement for public void org.springframework.boot.context.properties.ConversionServiceDeducer$Factory.setGenericConverters(java.util.List)
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'configClientProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'configServicePropertySource' via factory method to bean named 'configClientProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'configServicePropertySource' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'configServicePropertySource'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				Autowiring by type from bean name 'propertySourceBootstrapConfiguration' to bean named 'configServicePropertySource'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'propertySourceBootstrapConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'encryptionBootstrapConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'encryptionBootstrapConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Registered injected element on class [org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$bb553d05]: AutowiredFieldElement for private org.springframework.security.crypto.encrypt.TextEncryptor org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration.encryptor
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Registered injected element on class [org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$bb553d05]: AutowiredFieldElement for private org.springframework.cloud.bootstrap.encrypt.KeyProperties org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration.key
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'encryptionBootstrapConfiguration' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Processing injected element of bean 'encryptionBootstrapConfiguration': AutowiredFieldElement for private org.springframework.security.crypto.encrypt.TextEncryptor org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration.encryptor
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.annotation.InjectionMetadata -
+				Processing injected element of bean 'encryptionBootstrapConfiguration': AutowiredFieldElement for private org.springframework.cloud.bootstrap.encrypt.KeyProperties org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration.key
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'encrypt-org.springframework.cloud.bootstrap.encrypt.KeyProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'encrypt-org.springframework.cloud.bootstrap.encrypt.KeyProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'encrypt-org.springframework.cloud.bootstrap.encrypt.KeyProperties' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'encrypt-org.springframework.cloud.bootstrap.encrypt.KeyProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				Autowiring by type from bean name 'encryptionBootstrapConfiguration' to bean named 'encrypt-org.springframework.cloud.bootstrap.encrypt.KeyProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'encryptionBootstrapConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'configurationPropertiesRebinderAutoConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'propertyPlaceholderAutoConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'propertyPlaceholderAutoConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'propertyPlaceholderAutoConfiguration' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'propertyPlaceholderAutoConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'configServiceBootstrapConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'spring.cloud.config-org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'spring.cloud.config-org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'spring.cloud.config-org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'spring.cloud.config-org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'environmentDecryptApplicationListener'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'environmentDecryptApplicationListener'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'encryptionBootstrapConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'environmentDecryptApplicationListener' to allow for resolving potential circular references
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'environmentDecryptApplicationListener'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'encrypt-org.springframework.cloud.bootstrap.encrypt.KeyProperties'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'configurationPropertiesBeans'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'configurationPropertiesRebinder'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating instance of bean 'configurationPropertiesRebinder'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'configurationPropertiesRebinderAutoConfiguration'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'configurationPropertiesBeans'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'configurationPropertiesRebinder' via factory method to bean named 'configurationPropertiesBeans'
+2019-04-06 14:07:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Eagerly caching bean 'configurationPropertiesRebinder' to allow for resolving potential circular references
+2019-04-06 14:07:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Finished creating instance of bean 'configurationPropertiesRebinder'
+2019-04-06 14:07:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2019-04-06 14:07:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'configClientProperties'
+2019-04-06 14:07:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'configServicePropertySource'
+2019-04-06 14:07:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-04-06 14:07:23 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext -
+				Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@29ca901e]
+2019-04-06 14:07:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'lifecycleProcessor'
+2019-04-06 14:07:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2019-04-06 14:07:23 [main] DEBUG o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+				
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+   ConfigServiceBootstrapConfiguration#configServicePropertySource matched:
+      - @ConditionalOnProperty (spring.cloud.config.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.cloud.config.client.ConfigServicePropertySourceLocator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ConfigurationPropertiesRebinderAutoConfiguration matched:
+      - @ConditionalOnBean (types: org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor; SearchStrategy: all) found bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor' (OnBeanCondition)
+
+   ConfigurationPropertiesRebinderAutoConfiguration#configurationPropertiesBeans matched:
+      - @ConditionalOnMissingBean (types: org.springframework.cloud.context.properties.ConfigurationPropertiesBeans; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ConfigurationPropertiesRebinderAutoConfiguration#configurationPropertiesRebinder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.cloud.context.properties.ConfigurationPropertiesRebinder; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   EncryptionBootstrapConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.crypto.encrypt.TextEncryptor'; @ConditionalOnMissingClass did not find unwanted class (OnClassCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   ConfigServiceBootstrapConfiguration.RetryConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.retry.annotation.Retryable' (OnClassCondition)
+
+   DiscoveryClientConfigServiceBootstrapConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.cloud.config.discovery.enabled) did not find property 'spring.cloud.config.discovery.enabled' (OnPropertyCondition)
+
+   EncryptionBootstrapConfiguration.RsaEncryptionConfiguration:
+      Did not match:
+         - Keystore nor key found in Environment (EncryptionBootstrapConfiguration.KeyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.rsa.crypto.RsaSecretEncryptor'; @ConditionalOnMissingClass did not find unwanted class (OnClassCondition)
+
+   EncryptionBootstrapConfiguration.VanillaEncryptionConfiguration:
+      Did not match:
+         - @ConditionalOnMissingClass found unwanted class 'org.springframework.security.rsa.crypto.RsaSecretEncryptor' (OnClassCondition)
+
+   EurekaDiscoveryClientConfigServiceBootstrapConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.cloud.config.discovery.enabled) did not find property 'spring.cloud.config.discovery.enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.cloud.config.client.ConfigServicePropertySourceLocator'; @ConditionalOnMissingClass did not find unwanted class (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2019-04-06 14:07:23 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2019-04-06 14:07:23 [main] DEBUG o.s.core.env.StandardEnvironment -
+				Removing PropertySource 'bootstrap'
+2019-04-06 14:07:23 [main] DEBUG o.s.core.env.StandardEnvironment -
+				Removing PropertySource 'springCloudClientHostInfo'
+2019-04-06 14:07:23 [main] DEBUG o.s.w.c.s.StandardServletEnvironment -
+				Adding PropertySource 'defaultProperties' with lowest search precedence
+2019-04-06 14:07:23 [main] DEBUG o.s.core.env.StandardEnvironment -
+				Adding PropertySource 'defaultProperties' with lowest search precedence
+2019-04-06 14:07:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'propertySourceBootstrapConfiguration'
+2019-04-06 14:07:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'environmentDecryptApplicationListener'
+2019-04-06 14:07:23 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-04-06 14:07:34 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Started NoteServiceApplication in 13.312 seconds (JVM running for 14.269)

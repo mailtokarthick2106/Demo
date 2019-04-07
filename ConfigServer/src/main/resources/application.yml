@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: MicroserviceConfigServer
+  profiles:
+    active:
+      -   native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:
+            - /home/ubuntu/Desktop/finalfsd/config-repo
+        bootstrap: true
+  security:
+    user:
+      roles:
+        - ADMIN
+      name: admin
+      password: admin
+server:
+  port: 8888
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      base-path: /management
+  server:
+    port: 8191
